@@ -1,0 +1,290 @@
+* {
+font-family: 'Istok Web';
+font-style: normal;
+line-height: 22px;
+}
+
+.content {
+	position: relative;
+}
+
+nav {
+	text-align: center;
+	margin-top: 80px; /* move nav bar lower*/
+	float: right; /*favors the right */
+} 
+
+nav ul {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	list-style: none;
+}
+
+nav ul li{
+	margin: 0 40px;
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+.donate {
+	text-decoration:none; 
+	padding: 10px 15px;
+	background-color: green;
+	border-radius: 2px; /*round ends */
+}
+
+nav ul li .donate {
+	color: white;
+	font-weight: bold;
+}
+
+.content::after {
+	content: '';
+	position: absolute;
+	bottom: 5px; /* Adjust the distance of the line from the bottom */
+	left: 0;
+	width: 100%;
+	height: 1px;
+	background-color: black;
+}
+
+.welcome {
+	display: flex;
+	align-items: flex-start;
+	margin-left: 20px; /* space between the image and text*/
+}
+
+.orange {
+	background-color: #f17b1b;
+	padding: 15px;
+	border-radius: 2px;
+	margin-top: 30px;
+	width: 900px;
+	height: 150px;
+	
+}
+
+.orange p,
+.orange h2 {
+	color: black;
+	margin-top: 0; /* Remove default margin for h3 */
+}
+
+.learn {
+	margin-left: 0px;
+	margin-top: 20px;
+}
+
+.learn a.button {
+	color:white;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 10px 20px; /* Adjust padding to increase button size */
+	background-color: black; 
+	border: none;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+.help {
+	background-color:#D9D9D9;
+	text-align: center;
+	color: black;
+	font: smaller;
+	padding: 20px 0;
+	height: 150px;
+}
+	
+.help .help_button {
+	align-self: center;
+	color: white;
+	text-decoration:none;
+	font-weight: bold; 
+	padding: 10px 15px;
+	background-color: green;
+	border-radius: 2px;
+}
+	
+/*CONTACT PAGE*/
+	
+#hours img {
+	margin-right: 20px;
+}
+	
+#hours h3,
+#location h2{
+	font-weight: bold;
+}
+	
+#location, 
+#hours {
+	margin-left: 50px;
+}
+	
+.submit {
+	align-self: center;
+	color: white;
+	text-decoration: none;
+	background-color: green;
+	border-radius: 2px;
+}
+	
+#donate b {
+	text-align: center;
+}
+	
+#donate form {
+	padding: 20px;
+}
+	
+#donate fieldset {
+	background-color: #D9D9D9;
+	border: 1px solid #000000;
+}
+	
+#donate legend {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+	
+#donate label {
+	display: block;
+	margin-bottom: 5px; /* spacing between labels */
+}
+	
+	/*JTM*/
+	
+#events h2, h3 {
+	margin-right: 400px;
+	margin-left: 50px;
+	font-weight: bold;
+}
+	
+#events p{
+	margin-right: 400px;
+	margin-left: 50px;
+}
+	
+#events .YP{
+	margin-left: 300px;
+} 
+	
+.YP{
+	float: right;
+	margin-right: 80px;
+		
+}
+	
+#programs {
+	margin-top: 150px;
+	
+}
+	
+.all{
+	font-family: 'Istok Web';
+	font-style: normal;
+	line-height: 29px;
+	margin-left: 130px;
+	margin-right: 850px;
+}
+	
+.words h3 {
+		margin-left: 200px;
+}
+	
+.words2 {
+		font-family: 'Istok Web';
+		font-style: normal;
+		line-height: 29px;
+		margin-left: 230px;
+		margin-right: 50px;
+}
+	
+#programs h2 {
+		margin-left: 50px;
+		text-align: center; /* Center align the content */
+}
+	
+.images-container {
+		display: flex; /* Use flexbox layout */
+		justify-content: space-between; /* Distribute items evenly with space between them */
+		align-items: center;
+		margin-left: 100px;
+		margin-right: 100px;
+		margin-bottom: 20px; /* Add some spacing between images and additional content */
+}
+	
+.images-container img {
+		margin: 0 10px; /* Add some space between images */
+}
+	
+.foot {
+	background: black;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 22px;
+	text-transform: capitalize;
+	display: flex;
+    justify-content: center; /* Center items horizontally */
+    padding: 20px;
+    align-items: center; /* Center items vertically */
+	/*flex: 1;
+	margin-right: 0px; */
+}
+	
+.heading {
+		text-align: center;
+		margin-right: 50px; /* Adjust this margin as needed */
+		/*margin-right: -350px; */
+}
+
+.foot ul {
+	padding: 0;
+	margin: 0; /* Remove default margins */
+}
+	
+.foot ul li {
+		list-style: none;
+}
+	 
+.foot ul li a {
+	text-decoration: none;
+	color: white;
+	margin-left: 20px;	
+}
+	
+.foot h3 {
+		font-weight: bold;
+		color: white;
+		margin-top: 50px;
+		margin-left: 100px; 
+}
+	
+.foot h3 a {
+		text-decoration: none;
+		color: white;		
+}
+	
+.foot img {	float: left;
+background-color: black;
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+
