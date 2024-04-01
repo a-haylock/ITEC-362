@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta name ="author" content="Alaina Haylock>
     <meta name= "keywords" content="TWP, TWP the Movement, Teens with a Purpose">
@@ -19,56 +20,68 @@
   gtag('config', 'G-X8GLW75SE1');
 </script>
     
-<header>
-    <h1>Teens with a Purpose</h1>
+<body>
+
+<header class="content">
+    <!--<h1>Teens with a Purpose</h1>!-->
                 <a href="index.html">
                 <img src="./images/logo.jpg" alt="TWP Logo" width="150" height="150">
                 </a>
             <nav>
-            <h2><a href="whoweare.html">Who We Are</a></h2>
-            <h2><a href="JTM.html">Join the Movement</a></h2>
-            <h2><a href="Contact.html">Contact Us</a></h2>
-            <h2><a href="Contact.html#donate">Donate</a></h2>
+                <ul>
+                    <li><a href="whoweare.html">Who We Are</a></li>
+                    <li><a href="JTM.html">Join the Movement</a></li>
+                    <li><a href="Contact.html">Contact Us</a></li>
+                    <li><span class ="donate"><a href="Contact.html#donate">Donate</a></span></li>
+                </ul>
             </nav>
 </header>
+</body>
 
 <main>
-    <section>
-            <h3>Welcome</h3>
-                <img src="./images/homepic.jpg" alt="Smiling teen" width="225" height="225">
-                <p>Teens with a Purpose is a creative arts youth organization that empowers teens to address racial and societal issues within their community's using poetry, art, music, and acting.We believe in creating a space where teens can be teens and allowing them to express themselves creatively through the arts</p>
-                <a href="JTM.html">Learn More</a>
+    <section class="welcome">
+                <img src="./images/homepic.jpg" alt="Smiling teen" width="250" height="250">
+                <div class ="welcome-content">
+                
+                  <div class="orange">
+                <h2>Welcome</h2>
+                <p>Teens with a Purpose is a creative arts youth organization that empowers teens to address racial and societal issues within their community's using poetry, art, music, and acting.We believe in creating a space where teens can be teens and allowing them to express themselves creatively through the arts.</p>
+                <div class="learn">
+                <a href="JTM.html" class="button">Learn More</a>
+            </div>
+            </div>
+            </div>
     </section>
-    <section>
-            <h3>Help Make a Difference</h3>
+    <section class="help">
+            <h2>Help Make a Difference</h2>
                 <p>Any donation can allow us to continue to help and expand our programs for our teens. Your donation can make a big impact on the lives of these teens. Help us continue to change lives.</p>
-                <a href="Contact.html#donate">Donate</a>
+                <a href="Contact.html#donate" class="help_button">Donate Now</a>
     </section>
 </main>
-<footer>
-    <img src="./images/logo.jpg" alt="TWP Logo" width="150" height="150">
+<footer class="foot"> 
+    <img src="./images/footer.png" alt="TWP Logo" width="200" height="200">
+    <div class="heading">
         <h3><a href="whoweare.html">Who We Are</a></h3>
-            <div>
                 <ul>
                     <li><a href="whoweare.html#mission">Mission Statement</a></li>
                     <li><a href="whoweare.html#history">History</a></li>
                     <li><a href="whoweare.html#board">Board of Directors</a></li>
                 </ul>
-            </div>
+    </div>
+        <div class="heading">
         <h3><a href="JTM.html">Join the Movement</a></h3>
-            <div>
                 <ul>
                     <li><a href="JTM.html#events">Events</a></li>
                     <li><a href="JTM.html#programs">Community Outreach and Programs</a></li>
                 </ul>
-            </div>
+        </div>
+        <div class="heading">
         <h3><a href="Contact.html">Contact Us</a></h3>
-            <div>
                 <ul>
                     <li><a href="Contact.html#location">Location</a></li>
                     <li><a href="Contact.html#hours">Hours of Operation</a></li>
                     <li><a href="Contact.html#donate">Donation Form</a></li>
                 </ul>
-            </div>
-</footer>               
+        </div>         
+</footer        
 </html>
