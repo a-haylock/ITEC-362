@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teens with a Purpose - Contact</title>
@@ -16,19 +17,23 @@
   gtag('config', 'G-X8GLW75SE1');
 </script>
 
-<header>
-    <h1>Teens with a Purpose</h1>
-                <a href="TWP.html">
-                <img src="./images/logo.jpg" alt="TWP Logo" width="150" height="150">
-                </a>
-            <nav>
-            <h2><a href="whoweare.html">Who We Are</a></h2>
-            <h2><a href="JTM.html">Join the Movement</a></h2>
-            <h2><a href="Contact.html">Contact Us</a></h2>
-            <h2><a href="Contact.html#donate">Donate</a></h2>
-            </nav>
-</header>
+<body>
 
+    <header class="content">
+        <!--<h1>Teens with a Purpose</h1>!-->
+                    <a href="index.html">
+                    <img src="./images/logo.jpg" alt="TWP Logo" width="150" height="150">
+                    </a>
+                <nav>
+                    <ul>
+                        <li><a href="whoweare.html">Who We Are</a></li>
+                        <li><a href="JTM.html">Join the Movement</a></li>
+                        <li><a href="Contact.html">Contact Us</a></li>
+                        <li><span class ="donate"><a href="Contact.html#donate">Donate</a></span></li>
+                    </ul>
+                </nav>
+    </header>
+    </body>
 <main>
     <section>
         <div id="location">
@@ -72,16 +77,19 @@
 </form>
 </div>
 
-<footer>
-    <img src="./images/logo.jpg" alt="TWP Logo" width="150" height="150">
+<footer class="foot"> 
+    <img src="./images/footer.png" alt="TWP Logo" width="200" height="200">
+    <div class="heading">
         <h3><a href="whoweare.html">Who We Are</a></h3>
-            <div>
+            <div class="wwa">
                 <ul>
                     <li><a href="whoweare.html#mission">Mission Statement</a></li>
                     <li><a href="whoweare.html#history">History</a></li>
                     <li><a href="whoweare.html#board">Board of Directors</a></li>
                 </ul>
             </div>
+        </div>
+        <div class="heading">
         <h3><a href="JTM.html">Join the Movement</a></h3>
             <div>
                 <ul>
@@ -89,6 +97,8 @@
                     <li><a href="JTM.html#programs">Community Outreach and Programs</a></li>
                 </ul>
             </div>
+        </div>
+        <div class="heading">
         <h3><a href="Contact.html">Contact Us</a></h3>
             <div>
                 <ul>
@@ -97,5 +107,6 @@
                     <li><a href="Contact.html#donate">Donation Form</a></li>
                 </ul>
             </div>
-</footer>
+            </div>
+</footer>               
 </html>
