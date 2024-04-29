@@ -11,30 +11,6 @@
     <title>Teens with a Purpose - Contact</title>
 </head>
 
-<script>
-    document.getElementById('donationForm').addEventListener('submit', function(event) {
-        event.preventDefault();
-
-        const firstName = document.getElementById('first').value.trim();
-        const lastName = document.getElementById('last').value.trim();
-        const email = document.getElementById('email').value.trim();
-        const donationAmount = parseFloat(document.getElementById('donation').value);
-        const comments = document.getElementById('comments').value.trim();
-
-        if (!firstName || !lastName || !isValidEmail(email) || isNaN(donationAmount) || donationAmount < 10) {
-            alert('Please fill in all fields correctly.');
-            return;
-        }
-
-        alert('Form submitted successfully!');
-        this.reset();
-    });
-
-    function isValidEmail(email) {
-        return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-}
-</script>
-
 <body>
 
     <div class="top-bar">
